@@ -3,8 +3,8 @@ html {
   font-size: clamp(1rem, .75rem + 1.5vw, 1.2rem);
 }
 
-nav.navbar {
-  height: 4em!important;
+.navbar-brand img {
+  height: 96px;
 }
 
 .logo {
@@ -418,4 +418,12 @@ h2::after {
 
 .navbar-collapse ul {
   text-align: center;
+}
+
+.corporate-reports .row > h1 {
+  font-size: 1.4em;
+}
+
+.corporate-report-item h1 {
+  font-size: 1em;
 }
