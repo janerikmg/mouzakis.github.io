@@ -427,3 +427,28 @@ h2::after {
 .corporate-report-item h1 {
   font-size: 1em;
 }
+
+.document-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.document-list li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.document-list li.pdf:before {
+  content: url(pdf.png);
+  padding-right: 10px;
+  position: relative;
+  top: 15px;
+}
+
+.document-list li.zip:before {
+  content: url(zip.png);
+  padding-right: 10px;
+  position: relative;
+  top: 15px;
+}
