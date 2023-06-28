@@ -428,18 +428,23 @@ h2::after {
   font-size: 1em;
 }
 
-.document-list {
+ .document-list {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
 .document-list li {
-  padding-left: 1em;
-  text-indent: -1em;
+  display: flex;
+  gap: 1em;
+  padding-block-end: 1em;
+} 
+
+.document-list li img {
+  height: 40px;
 }
 
-.document-list li.pdf:before {
+/*.document-list li.pdf:before {
   content: url(pdf.png);
   padding-right: 10px;
   position: relative;
@@ -451,4 +456,4 @@ h2::after {
   padding-right: 10px;
   position: relative;
   top: 15px;
-}
+} */
